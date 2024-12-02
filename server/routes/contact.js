@@ -11,7 +11,7 @@ router.post('/', async (req, res) => {
     
     // Send email notification with detailed formatting
     await sendEmail({
-      to: process.env.ADMIN_EMAIL || 'irwrj@gmail.com',
+      to: process.env.ADMIN_EMAIL || 'marriagesmohanreddy@gmail.com',
       subject: 'New Contact Form Submission - Mohan Reddy Marriage Bureau',
       text: `
 New Contact Form Submission

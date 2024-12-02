@@ -46,7 +46,7 @@ const Grooms = () => {
 
   const getWhatsAppLink = (profile: Profile) => {
     const message = encodeURIComponent(`I am interested in ${profile.name}'s profile from Mohan Reddy Marriage Bureau.`);
-    return `https://wa.me/+91${profile.mobileNumber}?text=${message}`;
+    return `https://wa.me/+91${9700924478}?text=${message}`;
   };
 
   if (isLoading) {

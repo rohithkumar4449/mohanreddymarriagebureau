@@ -1,13 +1,26 @@
 import nodemailer from 'nodemailer';
 
+// const transporter = nodemailer.createTransport({
+//   service: 'gmail',
+//   auth: {
+//     user: process.env.EMAIL_USER,
+//     pass: process.env.EMAIL_PASS
+//   },
+//   tls: {
+//     rejectUnauthorized: false
+//   }
+// });
+
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
+  host: "smtp-relay.brevo.com",
+  port: 587,
+  secure: false,
   auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS
+    user: "810672001@smtp-brevo.com", // This is literally the string "apikey"
+    pass: "5DRT0ZP7vKEqML3J"
   },
   tls: {
-    rejectUnauthorized: false
+    rejectUnauthorized: false // Only for development
   }
 });
 

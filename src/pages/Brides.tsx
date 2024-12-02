@@ -46,7 +46,7 @@ const Brides = () => {
 
   const getWhatsAppLink = (profile: Profile) => {
     const message = encodeURIComponent(`I am interested in ${profile.name}'s profile from Mohan Reddy Marriage Bureau.`);
-    return `https://wa.me/+91${profile.mobileNumber}?text=${message}`;
+    return `https://wa.me/+91${9700924478}?text=${message}`;
   };
 
   if (isLoading) {
@@ -72,7 +72,7 @@ const Brides = () => {
               <div className="space-y-4">
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900">{profile.name}</h3>
-                  <p className="text-rose-500 font-medium">
+                  <p className="text-pink-500 font-medium">
                     {new Date().getFullYear() - new Date(profile.dateOfBirth).getFullYear()} Years
                   </p>
                 </div>

@@ -5,19 +5,19 @@ const Statistics = () => {
   const stats = [
     {
       icon: <Users className="w-8 h-8 text-orange-500" />,
-      value: "10000+",
+      value: "100+",
       label: "నమోదైన వధూవరులు",
       description: "Registered Profiles"
     },
     {
       icon: <Heart className="w-8 h-8 text-red-500" />,
-      value: "5000+",
+      value: "50+",
       label: "విజయవంతమైన వివాహాలు",
       description: "Successful Marriages"
     },
     {
       icon: <Star className="w-8 h-8 text-yellow-500" />,
-      value: "15+",
+      value: "5+",
       label: "సంవత్సరాల అనుభవం",
       description: "Years of Experience"
     },
@@ -35,7 +35,7 @@ const Statistics = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900">మా విజయగాథ</h2>
           <p className="mt-4 text-lg text-gray-600">
-            వేలాది కుటుంబాల విశ్వాసం పొందిన వివాహ వేదిక
+          వందలాది కుటుంబాల విశ్వాసం పొందిన వివాహ వేదిక
           </p>
         </div>
 

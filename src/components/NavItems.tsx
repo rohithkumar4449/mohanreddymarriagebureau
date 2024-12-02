@@ -32,7 +32,7 @@ const NavItems: React.FC<NavItemsProps> = ({ setIsContactFormOpen, isMobile }) =
       </Link>
       
       <a
-        href="https://wa.me/919999999999"
+        href="https://wa.me/919700924478"
         target="_blank"
         rel="noopener noreferrer"
         className={`${baseClasses} text-white bg-[#25D366] hover:bg-[#128C7E] rounded-full`}
